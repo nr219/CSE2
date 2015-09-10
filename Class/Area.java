@@ -3,21 +3,23 @@
 // Area.java
 
 // class
-import.java.until.Scanner;
-
 public class Area{
     
-//main
-    public static void main(String[] args){
-        
- Scanner       
-        
- int width 
- int height 
- 
- int a = width * height;
- 
-  System.out.println(" The area is:" + a);
-  
+public static area(float width,float height,) {
+
+float width = 5;
+float height = 5;
+float area = width *height;
+}
+
+public static void name(String[] args){
+
+float width = 5;
+float height = 5;
+
+	area(float width,float height),
+
+    Sytem.println("The area is "+area+"");
+
 }
 }
