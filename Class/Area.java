@@ -2,22 +2,23 @@
 // Nicholai Redfern
 // Area.java
 
+impoty java.util.Scanner;
+
 // class
 public class Area{
     
-public static area(float width,float height,) {
-
-float width = 5;
-float height = 5;
-float area = width *height;
-}
 
 public static void name(String[] args){
-
-float width = 5;
-float height = 5;
-
-	area(float width,float height),
+    
+    if(num==0){
+        
+    }
+    else if(num==2){
+        
+    }
+    else{
+        
+    }
 
     Sytem.println("The area is "+area+"");
 
