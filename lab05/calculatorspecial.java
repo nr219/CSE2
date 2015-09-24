@@ -6,12 +6,15 @@
 //scanner
 import java.util.Scanner;
 // class
-public class Calculator{
+public class calculatorspecial{
 // main
 public static void main(String[] args){
-    
+    //while
+    char stop ='y';
+    while (stop !='n' && stop !='N'){
     //scanner
     Scanner myScanner = new Scanner( System.in );
+    Scanner reader = new Scanner(System.in);
         // get info A
         System.out.print("Enter an integer for A: ");
         int A = myScanner.nextInt() ;
@@ -39,6 +42,10 @@ public static void main(String[] args){
                 break;
             default: System.out.print(" Invalid Operator");
         }
+        // get info stop
+        System.out.print("Enter n or N to stop: ");
+        stop = reader.findInLine(".").charAt(0);
+}
 }
 }
         
