@@ -1,26 +1,25 @@
 // Import 3 numbers and average them
 //scanner
-import java.util.Scanner;
 // Class
 public class Average{
-    // main
-    public static void main(String[] args) {
-        //scanner
-        Scanner myScanner = new Scanner( System.in );
-        // get info 1
-        System.out.print("Enter the first of the values: ");
-        int one = myScanner.nextInt() ;
-        // 2
-        System.out.print("Enter the second of the values: ");
-        int two = myScanner.nextInt() ;
-        // 3
-        System.out.print("Enter the third of the values: ");
-        int three = myScanner.nextInt() ;
-        //
-        //Average
-        Double average = (double) (one+two+three)/3;
-        //
-        //print 
-        System.out.println("The average is "+average+"");
-    }
+   int x = 0, y = 0;
+        while (x < 3)
+        {
+            switch (x + y)
+            {
+                case 0:
+                    x++;
+                case 1:
+                case 2:
+                    y++;
+                    break;
+                case 3:
+                    x++;
+                    break;
+                default:
+                    y = 0;
+                    break;
+            }
+            System.out.print(y);
+        }
 }
